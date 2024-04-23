@@ -22,7 +22,9 @@ import glob
 from WORC.exampledata.datadownloader import download_HeadAndNeck
 
 # Define the folder this script is in, so we can easily find the example data
-script_path = os.path.dirname(os.path.abspath(__file__))
+# script_path = os.path.dirname(os.path.abspath(__file__))
+# Absolute path in case you want to run it in interactive shell
+script_path = os.path.dirname(os.path.abspath('/home/lkeb-mgo1/WORCTutorial/WORCTutorialSimple.py'))
 
 # Determine whether you would like to use WORC for binary_classification,
 # multiclass_classification or regression

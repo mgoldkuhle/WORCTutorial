@@ -107,6 +107,6 @@ venv.bak/
 .vscode
 
 # Dataset for testing
-Data/stwstrategyhn1
-WORC_Example*
+Data/
+WORC_*
 *.svg
